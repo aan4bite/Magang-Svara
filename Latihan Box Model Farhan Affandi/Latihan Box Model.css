@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 17px/25px ;
+    background-color: darkgray;
+    background-image: url(images.png);
+}
+
+.kontener {
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.judul {
+    padding: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: blue;
+}
+
+.img {
+    height: 450px;
+    background-image: url(monas.png);
+    background-size: cover;
+    background-position: 0 -100px ;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.artikel {
+    padding: 20px;
+}
+
+.artikel .monas {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.artikel .penulis a {
+    text-decoration: none;
+    color: black;
+}
+
+.artikel p {
+    margin-bottom: 20px;
+}
+
+.footer .copy {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
