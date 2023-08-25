@@ -9,10 +9,45 @@ body {
     background-image: url(img/images.png);
 }
 
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color: darkgray;
+    border-bottom: 3px solid;
+    z-index: 99999;
+}
+
+.top-bar ul li {
+    display: inline-block;
+}
+
+.top-bar img {
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    padding: 7px;
+    justify-content: center;
+}
+
 .kontener {
     width: 960px;
-    margin: auto;
+    margin: 80px auto;
     background-color: whitesmoke;
+    position: relative;
+}
+
+.jakarta {
+    width: 150px;
+    height: 180px;
+    background-image: url(img/jakarta.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 375px;
+    right: 5px;
 }
 
 .judul {
