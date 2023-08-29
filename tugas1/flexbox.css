@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: grey;
+    font: 17px/25px times;
+}
+
+.kontener{
+    background-color: white;
+    width: 960px; 
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.profil{
+    width: fit-content;
+    background-color: whitesmoke;
+    line-height: 2;
+    margin: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 250px;
+    height: 250px;
+    background-image: url(img/farhan.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.profil ul li:nth-child(1){
+    list-style-image: url(img/tas.png);
+}
+
+.profil ul li:nth-child(2){
+    list-style-image: url(img/home.png);
+}
+
+.profil ul li:nth-child(3){
+    list-style-image: url(img/email.png);
+}
+
+.profil ul li:nth-child(4){
+    list-style-image: url(img/call.png);
+}
+
+.profil ul li:nth-child(5){
+    list-style-image: url(img/puzzle.png);
+}
+
+.profil ul li:nth-child(6){
+    list-style-image: url(img/world.png);
+}
+
+.oval {
+    width: 250px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.oval0 {
+    width: 25px;
+    height: 15px;
+    background-color: seagreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.oval50 {
+    width: 125px;
+    height: 15px;
+    background-color: seagreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.oval75 {
+    width: 200px;
+    height: 15px;
+    background-color: seagreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.oval100 {
+    width: 250px;
+    height: 15px;
+    background-color: seagreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.dua{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 2;
+}
+
+.kerja{
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.dua .kerja ul li:first-child{
+    list-style-image: url(img/tas1.png);
+}
+
+.kerja ul li:nth-child(1n){
+    list-style-image: url(img/calender.png);
+}
+
+.sekolah{
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.dua .sekolah ul li:first-child{
+    list-style-image: url(img/edu.png);
+}
+
+.sekolah ul li:nth-child(1n){
+    list-style-image: url(img/calender.png);
+}
+
+.footer {
+    background-color: seagreen;
+    text-align: center;
+    width: 100%;
+    font: 17px 20px times;
+    height: 120px;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .kontener {
+        padding: 7px;
+    }
+
+    .dua {
+        margin: 2px;
+        padding: 15px;
+    }
+}
